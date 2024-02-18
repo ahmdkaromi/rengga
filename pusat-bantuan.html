@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pusat Bantuan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="css/assets/logo.png" alt="logo"></a>
+            <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-5">
+                    <span class="nav-link active" aria-current="page" href="#">Pusat Bantuan</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Awal Pusat Bantuan -->
+    <div class="jumbotron jumbotron-fluid pusat-bantuan text-center">
+        <div class="container bantuan">
+            <h4 style="margin-top: -100px;">Haloo, Adakah yang bisa kami bantu ?</h4>
+            <form class=" nav-link d-flex input-group m-md-auto" role="search" style="width: 50%;">
+                <input type="search" class="form-control" placeholder="Search" aria-label="Search"
+                    aria-describedby="basic-addon1">
+                <span class="input-group-text" id="basic-addon1"><button type="submit" style="border: none ;"><i
+                            class="bi bi-search"></i></button></span>
+            </form>
+        </div>
+    </div>
+
+    <section id="konten-bantuan">
+        <div class="container bantuan">
+            <h4>Cara Memesan jasa di RENGGA</h4>
+            <div class="tata-cara">
+                <div class="row picture text-center">
+                    <div class="col-md ">
+                        <img src="CSS/assets/registrasi.svg" alt="regist">
+                    </div>
+                    <div class="col-sm-1">
+                        <img src="CSS/assets/next.svg" alt="garis" class="next">
+                    </div>
+                    <div class="col-md">
+                        <img src="CSS/assets/Pesan.svg" alt="pesan-jasa">
+                    </div>
+                    <div class="col-sm-1">
+                        <img src="CSS/assets/next.svg" alt="garis" class="next">
+                    </div>
+                    <div class="col-md">
+                        <img src="CSS/assets/melayani.svg" alt="melayani">
+                    </div>
+                    <div class="col-sm-1">
+                        <img src="CSS/assets/next.svg" alt="garis" class="next">
+                    </div>
+                    <div class="col-md">
+                        <img src="CSS/assets/Bayar.svg" alt="pesan-jasa">
+                    </div>
+                </div>
+                <div class="row picture-text">
+                    <div class="col-md">
+                        <h4>Registrasi</h4>
+                        <ul style="list-style: none; margin: 0; padding: 0;">
+                            <a href="#Modal1" data-bs-toggle="modal">
+                                <li>Bagaimana jika saya lupa kata sandi
+                                    akun saya?</li>
+                            </a>
+                            <a href="#Modal2" data-bs-toggle="modal">
+                                <li>Bagaimana cara melakukan
+                                    verifikasi data?</li>
+                            </a>
+                            <a href="#Modal3" data-bs-toggle="modal">
+                                <li>Apa rekomendasi password
+                                    yang tidak mudah dibobol?</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-md">
+                        <h4>Pesan Jasa</h4>
+                        <ul style="list-style: none; margin: 0; padding: 0;">
+                            <a href="#Modal4" data-bs-toggle="modal">
+                                <li>Bagaimana cara memesan
+                                    jasa di RENGGA?</li>
+                            </a>
+                            <a href="#Modal5" data-bs-toggle="modal">
+                                <li>Bagaimana cara tahu
+                                    layanan yang sedang promo?</li>
+                            </a>
+                            <a href="#Modal6" data-bs-toggle="modal">
+                                <li>Bagaimana cara membatalkan
+                                    sebuah pemesanan jasa?</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-md">
+                        <h4>Siap Melayani</h4>
+                        <ul style="list-style: none; margin: 0; padding: 0;">
+                            <a href="#Modal7" data-bs-toggle="modal">
+                                <li>Bagaimana saya dapat memberikan review
+                                    terhadap pelayanan jasa?</li>
+                            </a>
+                            <a href="#Modal8" data-bs-toggle="modal">
+                                <li>Bagaimana saya tahu jika seller sedang
+                                    otw menuju tempat saya?</li>
+                            </a>
+                            <a href="#Modal9" data-bs-toggle="modal">
+                                <li>Bagaimana jika jasa yang datang
+                                    tidak sesuai dengan yang saya pesan?
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-md">
+                        <h4>Bayar</h4>
+                        <ul style="list-style: none; margin: 0; padding: 0;">
+                            <a href="#Modal10" data-bs-toggle="modal">
+                                <li>Metode pembayaran apa saja yang
+                                    disediakan oleh RENGGA?</li>
+                            </a>
+                            <a href="#Modal11" data-bs-toggle="modal">
+                                <li>Bagaimana saya tahu jika
+                                    pembayaran berhasil?</li>
+                            </a>
+                            <a href="#Modal12" data-bs-toggle="modal">
+                                <li>Bagaimana cara melakukan
+                                    pembayaran online?</li>
+                            </a>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kategori">
+        <div class="container bantuan">
+            <h4>Kategori</h4>
+            <div class="kategori-bantuan">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4 gambar-kategori">
+                                    <img src="CSS/assets/eclipse.svg" class="img-fluid rounded-start" alt="bulet">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tentang RENGGA</h5>
+                                        <p class="card-text">Toko Online terpercaya dan terbaik dengan beragam produk
+                                            jasa yang tersedia serta promo-promo menarik lainnya seputar pemesanan jasa.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 gambar-panah">
+                                    <a href="#"><img src="CSS/assets/panahh.svg" alt="panah"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4 gambar-kategori">
+                                    <img src="CSS/assets/eclipse.svg" class="img-fluid rounded-start" alt="bulet">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Registrasi Member
+                                            & Info Akun</h5>
+                                        <p class="card-text">Seputar Pendaftaran dan pengaturan akun member RENGGA
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 gambar-panah">
+                                    <a href="#"><img src="CSS/assets/panahh.svg" alt="panah"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4 gambar-kategori">
+                                    <img src="CSS/assets/eclipse.svg" class="img-fluid rounded-start" alt="bulet">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pemesanan Jasa</h5>
+                                        <p class="card-text">Langkah mudah penuhi segala kebutuhan jasa di RENGGA.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 gambar-panah">
+                                    <a href="#"><img src="CSS/assets/panahh.svg" alt="panah"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4 gambar-kategori">
+                                    <img src="CSS/assets/eclipse.svg" class="img-fluid rounded-start" alt="bulet">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pembayaran</h5>
+                                        <p class="card-text">Panduan berbagai pilihan metode pembayaran yang tersedia di
+                                            RENGGA.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 gambar-panah">
+                                    <a href="#"><img src="CSS/assets/panahh.svg" alt="panah"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3" style="max-width: 100%;">
+                            <div class="row g-0">
+                                <div class="col-md-4 gambar-kategori">
+                                    <img src="CSS/assets/eclipse.svg" class="img-fluid rounded-start" alt="bulet">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Penjemputan</h5>
+                                        <p class="card-text">Pelajari layanan jasa terkait penjemputan penyedia jasa ke
+                                            lokasi customer.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 gambar-panah">
+                                    <a href="#"><img src="CSS/assets/panahh.svg" alt="panah"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4 gambar-kategori">
+                                    <img src="CSS/assets/eclipse.svg" class="img-fluid rounded-start" alt="bulet">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Informasi Umum</h5>
+                                        <p class="card-text">Pelajari informasi-informasi umum yang ada di RENGGA
+                                            terkait pelayanan jasa yang tersedia serta proses pelayanan.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 gambar-panah">
+                                    <a href="#"><img src="CSS/assets/panahh.svg" alt="panah"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="hubungi">
+        <div class="container bantuan">
+            <h4>Apakah Kamu Perlu Bantuan Lain? Hubungi Customer Care kami</h4>
+            <div class="row">
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="CSS/assets/telepon.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">via Telepon</h5>
+                                <p class="card-text">Mohon agar bersabar, kita usahakan selalu siap menjawab telepon dan
+                                    chat
+                                    whatsapp kamu setiap hari.</p>
+                                <a href="#">
+                                    <p>0858 76542 7212</p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Pusat Bantuan RENGGA 2022</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="CSS/assets/email.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">via Email</h5>
+                                <p class="card-text">Mohon bersabar, kita siap membalas email kamu
+                                    sesegera dan secepat mungkin.</p>
+                                <a href="#">
+                                    <p>customer.care@rengga.com</p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Pusat Bantuan RENGGA 2022</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="CSS/assets/form.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">via Formulir</h5>
+                                <p class="card-text">Siap menerima bentuk kritik dan
+                                    saran kamu serta menanggapinya.</p>
+                                <a href="#">
+                                    <p>
+                                        Formulir Saran & Kritik
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Pusat Bantuan RENGGA 2022</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Akhir Pusat Bantuan  -->
+
+
+    <!-- Awal Footer -->
+    <footer>
+        <div class="container-fluid footer">
+            <div class="container footer1">
+                <div class="row footer2">
+                    <div class="col-sm-6">
+                        <img src="CSS/assets/footer-logo.png" alt="logo">
+                        <p>Sebagai pelayanan jasa online terbagus dan terpercaya, Rengga menawarkan berbagai pilihan
+                            jasa yang
+                            berkualitas dengan tersedianya oleh lebih dari 100.000 mitra usaha, mulai dari layanan
+                            jasa
+                            primer, jasa
+                            sekunder, jasa untuk kebutuhan sehari-hari hingga layasan jasa untuk keperluan gaya
+                            hidup.
+                        </p>
+                        <img src="CSS/assets/line3.svg  " alt="line">
+
+                    </div>
+                    <div class="col-sm-2">
+                        <h4>LAYANAN</h4>
+                        <ul>
+                            <li><a href="login.html">Cleaning Service</a></li>
+                            <li><a href="login.html">Barber Shop</a></li>
+                            <li><a href="login.html">Shoe Cleaning</a></li>
+                            <li><a href="login.html">Massage</a></li>
+                            <li><a href="login.html">Joki Tugas</a></li>
+                            <li><a href="login.html">Others</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h4>INFO</h4>
+                        <ul>
+                            <li><a href="#">Tentang Kami</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h4>CONTACT</h4>
+                        <ul>
+                            <li>Feel free to contact us by either email or phone.</li>
+                            <li><a href="#">+62 899 321-980</a></li>
+                            <li><a href="#">renggakaromi@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row footer3">
+                    <div class="col-sm-6">
+                        <h5>Ikuti Kami</h5>
+                        <ul>
+                            <li><a href="#"><img src="CSS/assets/fb.svg" alt="fb"></a></li>
+                            <li><a href="#"><img src="CSS/assets/instagram.svg" alt="fb"></a></li>
+                            <li><a href="#"><img src="CSS/assets/twitter.svg" alt="fb"></a></li>
+                            <li><a href="#"><img src="CSS/assets/google.svg" alt="fb"></a></li>
+                        </ul>
+                        <p>Rengga 2022. Hak Cipta Dilindungi
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="#">
+                            <h4>PRIVACY POLICY</h4>
+                        </a>
+
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="#">
+                            <h4>TERMS AND CONDITION</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+    <!-- Modal -->
+<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Forgot your password?</h5>
+          <button type="button" class="close" data-dismiss="modal" data-bs-toggle="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        Try to remember it first, take a deep breath. If it didn't work then try to contact us at our email at renggakaromi@gmail.com
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Want to verify your data?</h5>
+          <button type="button" class="close" data-dismiss="modal" data-bs-toggle="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        We're sorry we can't help you right now.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Password Recommendation</h5>
+          <button type="button" class="close" data-dismiss="modal" data-bs-toggle="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            Your password can be any combination of letters, numbers, and symbols (ASCII-standard characters only).
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Need help with our services?</h5>
+          <button type="button" class="close" data-dismiss="modal" data-bs-toggle="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        Please head to our "Pusat Bantuan" page
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Looking for promos at our services?</h5>
+          <button type="button" class="close" data-dismiss="modal" data-bs-toggle="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        We don't have any discount feature on our website at the moment. Please wait for the upcoming update.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cancel a transaction?</h5>
+          <button type="button" class="close" data-dismiss="modal" data-bs-toggle="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        Please contact our staff at renggakaromi@gmail.com and wait for further notice.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Give your review</h5>
+          <button type="button" class="close" data-dismiss="modal" data-bs-toggle="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        Please head to the seller's profile and leave a review there
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Check seller's location</h5>
+          <button type="button" class="close" data-dismiss="modal" data-bs-toggle="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        You can contact them by using the "Contact Us" button at their profile. As for their exact location, we currently don't have any Maps feature on the website.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Wrong seller at your house?</h5>
+          <button type="button" class="close" data-dismiss="modal" data-bs-toggle="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        Please check your order at "MyOrder" page first, then you can contact us at renggakaromi@gmail.com for further instructions
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Payment Methods</h5>
+          <button type="button" class="close" data-dismiss="modal" data-bs-toggle="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        Currently the only payment methods we have is Cash-based payment
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Successfull payment</h5>
+          <button type="button" class="close" data-dismiss="modal" data-bs-toggle="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        Seller will confirm it when they received the payment agreed on transactions
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Online payment</h5>
+          <button type="button" class="close" data-dismiss="modal" data-bs-toggle="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        We're sorry but currently we don't have any online payment method implemented at our website
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Akhir Modal -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
